@@ -283,6 +283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interlocked Mobius Strip
       objectReference: {fileID: 0}
+    - target: {fileID: 8835409689826365435, guid: c4cdc627e2e366648878e31a99419d11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3bb6e74d7246eef448f3f5b23fc94180, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4cdc627e2e366648878e31a99419d11, type: 3}
 --- !u!1 &1033091619 stripped
@@ -380,7 +384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399053504}
   m_LocalRotation: {x: 0.145824, y: 0, z: 0, w: 0.98931056}
-  m_LocalPosition: {x: -0.54, y: 7.94, z: -29.94}
+  m_LocalPosition: {x: -0.54, y: 3.27, z: -14.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -439,7 +443,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3713a7d0c8d68ff4dbf9d44c5798177e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
